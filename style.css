@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #000;
+}
+body html{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+#nav h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#nav-pr2{
+    display: flex;
+    gap: 40px;
+}
+#nav-pr2 h4{
+    font-size: 18px;
+}
+#nav-pr3{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#nav-pr3 h4{
+    font-size:18px;
+}
+h1{
+   font-size: 70px;
+   text-align: center;
+   text-transform: capitalize;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+button{
+    height: 70px;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+      background-color: #000;
+      color: white;
+      border-radius: 30px;
+ }
+ #container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ }
+ #gallery { 
+   width: 100%;
+   height:600px;
+   position: absolute;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 1s;
+    
+} 
+#gallery #im-1{
+    height: 130px;
+    width:12%;
+}
+#gallery #im-1:hover{
+    height: 200px;
+    width:18%;
+}
+
+
+#gallery #im-2{
+    height:170px;
+    width:15%;
+}
+#gallery #im-2:hover{
+    height:300px;
+    width:19%;
+}
+#gallery #im-3{
+    height:150px;
+    width:12%;
+}
+
+#gallery #im-3:hover{
+    height:280px;
+    width:17%;
+}
+#gallery #im-4{
+    height: 180px;
+    width:220px;
+}
+#gallery #im-4:hover{
+    height:280px;
+    width:260px;
+}
+
+#gallery #im-5{
+    height:210px;
+    width:15%;
+}
+#gallery #im-5:hover{
+    height:300px;
+    width:18%;
+}
+
+
+
+#gallery #im-6{
+    height: 130px;
+    width:12%;
+}
+#gallery #im-6:hover{
+    height: 250px;
+    width:17%;
+}
+
+
+
+#gallery #im-7{
+    height:170px;
+    width:15%;
+}
+#gallery #im-7:hover{
+    height:300px;
+    width:18%;
+}
+
+
+
+#gallery #im-8{
+    height:150px;
+    width:12%;
+}
+#gallery #im-8:hover{
+    height:250px;
+    width:18%;
+}
+
+
+
+#gallery #im-9{
+    height: 180px;
+    width:250px;
+}
+#gallery #im-9:hover{
+    height:350px;
+    width:19%;
+}
+
+
+#gallery #im-10{
+    height: 130px;
+    width:12%;
+}
+#gallery #im-10:hover{
+    height:250px;
+    width:18%;
+}
